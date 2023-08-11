@@ -1,0 +1,24 @@
+{
+  "name": "desafio-backend-modulo-02",
+  "version": "1.0.0",
+  "description": "Desafio MD-02 #PotenciaTech",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest --watchAll=false --noStackTrace",
+    "dev": "nodemon ./src/index.js"
+  },
+  "keywords": [
+    "desafio",
+    "express",
+    "API Rest"
+  ],
+  "author": "Wanderson Alves",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
